@@ -1,8 +1,295 @@
-<!DOCTYPE html>
 <html>
-	<head>
-	</head>
+<head>
+    <title>Nociglia</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
 <body>
-<img src="arkgeo.png" />
+    <script src="js/swapPage.js">
+    </script>
+
+    <div class="leftBorder">
+        <table id="info">
+            <colgroup>
+                <col style="width: 50px" />
+                <col style="width: 150px" />
+                <col style="width: 50px" />
+            </colgroup>
+
+            <tr>
+                <th class="logo" rowspan="3">
+                    <img src="img/logo_ad.png" /></th>
+                <th></th>
+                <th class="logo" rowspan="3">
+                    <img src="img/Nociglia-Stemma.png" /></th>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>COMUNE DI NOCIGLIA</h1>
+                    <h2>- PROVINCIA DI LECCE -</h2>
+                    <h3>RIQUALIFICAZIONE ENERGETICA</h3>
+                    <h4>Scuola Primaria</h4>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td class="logo" colspan="3">
+                    <img src="img/logo_europa_20101.jpg" /></td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2">
+                    <h2>Programma Operativo FESR Puglia 2007 - 2013</h2>
+                </td>
+            </tr>
+            <tr></tr>
+
+            <tr>
+                <td id="asse" colspan="3">ASSE II -Uso Sostenibile risorse ambientali- azione 2.4.1
+                <br />
+                    "Promozione del risparmio energetico e dell'impiego di
+                <br />
+                    energia solare nell'edilizia pubblica non residenziale"
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h5>BILANCIO OPERATIVO ENERGETICO</h5>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>CONSUMI ISTANTANEI PER RISCALDAMENTO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>CONSUMI ISTANTANEI IMPIANTI INTERNI ALL'EDIFICIO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>PRODUZIONE DA IMPIANTO GEOTERMICO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>PRODUZIONE DA IMPIANTO FOTOVOLTAICO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>TOTALE</h6>
+                </td>
+            </tr>
+            <tr>
+                <td class="hLine" colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>CONSUMI TOTALI PER RISCALDAMENTO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>CONSUMI TOTALI IMPIANTI INTERNI ALL'EDIFICIO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>PRODUZIONE TOTALE DA IMPIANTO GEOTERMICO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>PRODUZIONE TOTALE DA IMPIANTO FOTOVOLTAICO</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h6>TOTALE</h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <h6>Progettisti:</h6>
+                    <p class="names">
+                        arch. Augusto MERICO
+                <br />
+                        ing. Ivan CONTRINO
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="page flash">
+        <div>
+            <object width="950" height="768" data="video/school.swf">
+                <param value="false" name="loop">
+            </object>
+        </div>
+
+
+    </div>
+
+    <div class="page scheda">
+        <div id="impianto">
+            <div id="data1"></div>
+            <div id="data2"></div>
+            <div id="data3"></div>
+            <div id="data4"></div>
+            <div id="data5"></div>
+            <div id="data6"></div>
+            <div id="data7"></div>
+            <div id="data8"></div>
+            <div id="data9"></div>
+
+
+        </div>
+    </div>
+
+    <div class="page table">
+        <table id="tableProd">
+            <colgroup>
+                <col span="1" style="width: 50%;" />
+                <col span="1" style="width: 50%;" />
+            </colgroup>
+            <caption>Produzione Fotovoltaici</caption>
+            <thead>
+                <tr>
+                    <th>Produzione elettrica kWh istantaneo</th>
+                    <th>Produzione elettrica kWh totale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table id="tableCons">
+            <colgroup>
+                <col span="1" style="width: 10%;" />
+                <col span="1" style="width: 15%;" />
+                <col span="1" style="width: 15%;" />
+                <col span="1" style="width: 15%;" />
+                <col span="1" style="width: 15%;" />
+                <col span="1" style="width: 20%;" />
+            </colgroup>
+            <caption>Consumo elettrico kWh</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Ora</th>
+                    <th>Giorno</th>
+                    <th>Mese</th>
+                    <th>Anno</th>
+                    <th>Totale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Pompa sorgente</th>
+                    <td>0</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <th>Pompa utilizzo</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <th>Ventilconvettori</th>
+                    <td>0</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Pompa calore</th>
+                    <td>0</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Scuola</th>
+                    <td>0</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table id="tableBal">
+            <colgroup>
+                <col span="1" style="width: 50%;" />
+                <col span="1" style="width: 50%;" />
+            </colgroup>
+            <caption>Bilancio</caption>
+            <thead>
+                <tr>
+                    <th>Bilancio kWh</th>
+                    <th>Bilancio in tonnellate di CO2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
 </body>
 </html>
