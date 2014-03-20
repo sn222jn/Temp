@@ -24,49 +24,54 @@
 #info {
     font-family: Verdana, arial;
     width: 100%;
-    font-size: .4em;
+    font-size: .5em;
     border: 6px double black;
     padding: 0;
+    text-align: center;
 }
 
 .logo img {
     width: 40px;
     height: auto;
 }
-
+#info td {
+}
 #info th {
 }
 
 #info h1 {
-    font-size: .85em;
+    font-size: 1.85em;
 }
 
 #info h2 {
-    font-size: .55em;
+    font-size: 1.3em;
 }
 
 #info h3 {
-    font-size: .55em;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 
 #info h4 {
-    font-size: .5em;
+    font-size: 1.3em;
     text-decoration: underline;
 }
 
 #info h5 {
-    font-size: .6em;
+    font-size: 1.5em;
     letter-spacing: .9px;
+    padding-top: .5em;
 }
 
 #info h6 {
-    font-size: .55em;
+    padding-top: .4em;
+    font-size: 1.1em;
     text-align: left;
+    line-height: 0;
 }
 
 #asse {
-    font-size: .7em;
+    font-size: .9em;
     font-style: italic;
     font-weight: bolder;
 }
@@ -77,7 +82,7 @@
 
 .names {
     text-transform: none;
-    font-size: .6em;
+    font-size: 1.4em;
     text-align: left;
 }
 /* ==========================================================================
@@ -100,8 +105,8 @@ object {
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    margin-left: 300px;
-    top: 30px;
+    margin-left: 340px;
+    top: 10px;
 }
 
     #impianto div {
@@ -162,26 +167,23 @@ object {
    Table layout (page 3)
    ========================================================================== */
 .table {
-    top: 50px;
+    top: 10px;
     margin-left: 28%;
-    position: fixed;
+    position: relative;
 }
 
-table {
-    width: 65%;
-    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 4%;
-}
+    .table table {
+        width: 65%;
+        font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 2%;
+    }
 
-thead th {
-    border: none;
-    background-color: white;
-    padding: .2em 0 0 0;
-}
-
-tbody {
-}
+    .table thead th {
+        border: none;
+        background-color: white;
+        padding: .2em 0 0 0;
+    }
 
 #tableProd {
     background-color: #53FF75;
@@ -212,19 +214,27 @@ tbody {
         background-color: #29317F;
     }
 
-caption {
+.table caption {
     color: white;
     font-size: 1.5em;
     border-bottom: 3px solid white;
     padding: .4em 0 .3em 0;
 }
 
-td {
+.table td {
     border: 3px solid white;
     text-align: center;
     font-size: 2em;
 }
 
-th {
+.table th {
     border: 5px solid white;
+}
+
+/* Credits layout */
+#credits {
+    font-family: Verdana;
+    font-size: .7em;
+    float: right;
+
 }

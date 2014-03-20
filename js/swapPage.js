@@ -1,4 +1,4 @@
-var TIME_PER_PAGE = 2000;
+var TIME_PER_PAGE = 27000;
 window.onload = function () {
     var pages = document.querySelectorAll('.page'),
             numPages = pages ? pages.length : 0;
